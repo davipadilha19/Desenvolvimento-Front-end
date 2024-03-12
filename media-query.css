@@ -37,8 +37,7 @@
 
     .criar{
         margin-top: 20px;
-        display: flex;
-        justify-content: center;
+       margin: auto
     }
 
 }
@@ -89,8 +88,7 @@
     }
     .criar{
         margin-top: 20px;
-        display: flex;
-        justify-content: center;
+        margin: auto;
     }
     
 }
