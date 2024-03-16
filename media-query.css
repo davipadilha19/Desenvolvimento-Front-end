@@ -39,6 +39,16 @@
         margin-top: 20px;
        margin: auto
     }
+    .preencher{
+        background-color: #f5d2f0;
+        color: #791667;
+        font-weight: 700;
+        height: 50px;
+        width: 400px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        text-align: center;
+    }
 
 }
 
@@ -64,11 +74,13 @@
     }
     
     .preencher{
-        background-color: #d6d6d6;
+        background-color: #f5d2f0;
+        color: #791667;
+        font-weight: 700;
         height: 50px;
         width: 400px;
         margin-bottom: 10px;
-        border-radius: 10px;
+        border-radius: 30px;
         text-align: center;
     }
 
@@ -89,6 +101,42 @@
     .criar{
         margin-top: 20px;
         margin: auto;
+    }
+
+    .div-txt{
+        background-color: #ede9f0;
+        width: 300px;
+        margin: auto;
+        padding: 50px;
+        border-radius: 20px;
+        
+    }
+    #msucesso{
+        float: center;
+        width: 50%;
+        margin-top: 15vh;
+    }
+
+    .check{
+        width: 250px;
+        height: 50px;
+        display: flex;
+        margin-left: auto;
+        border-radius: 30px;
+        margin-right: 50px;animation: checkScale 1s ease  ;
+    }
+    
+    @keyframes checkScale {
+      0% {
+        transform: translateY(0%);
+        transform: translateX(-500px)
+      }
+      50%{
+        transform: translateY(100%);
+      }
+      100% {
+        transform: translateY(-50%);
+      }
     }
     
 }

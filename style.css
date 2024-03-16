@@ -40,11 +40,14 @@ main{
     height: 200px;
 }
 .preencher{
-    background-color: #d6d6d6;
+    background-color: #f5d2f0;
+    color: #791667;
+    font-weight: 700;
+    border: none;
     height: 30px;
     width: 200px;
     margin-bottom: 10px;
-    border-radius: 10px;
+    border-radius: 30px;
     text-align: center;
 }
 #login > #formulario{
@@ -79,14 +82,14 @@ main{
     height: 40px;
     padding: 5px;
     margin-top: 5px;
-    background-color: #5f2c82;
+    background-color: #ca70bb;
     color: #fff;
     border: none;
     border-radius: 30px;
 }
 
 input[type = submit]:hover{
-    background-color: blueviolet;
+    background-color: #791667;
     cursor: pointer;
     font-weight: bold;
 }
@@ -99,14 +102,14 @@ a.botao{
     font-size: 1em;
     width: 75%;
     height: 40px;
-    background-color: #5f2c82;
+    background-color: #ca70bb;
     border-radius: 30px;
     color: #fff;
     text-decoration: none;
 }
 
 a.botao:hover{
-    background-color: blueviolet;
+    background-color: #791667;
     cursor: pointer;
     font-weight: bold;
 
