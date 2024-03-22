@@ -62,6 +62,9 @@
         background-image: linear-gradient(to top, #5f2c82, #49a09d);
         
     }
+    #bodyMenu{
+        background-color: #EFF5FB;
+    }
 
     #login{
         width: 950px;
@@ -145,7 +148,7 @@
     }
 
     .navbar{
-        background-color: #49a09d;
+        background-color: #532606;
         height: 10vh;
         width: auto;
         display: flex;
@@ -155,29 +158,31 @@
         display: flex;
         justify-content: space-between;
         margin-right: 100px;
+        align-items: center;
     }
-    summary{
-        margin-right: 20px;
+    .bar > a{
+        margin-inline: 10px;
+        text-decoration: none;
+        color: rgb(213, 213, 213);
+        font-weight: 700;
+        font: bold 18px arial;
     }
-    .options:hover{
-        background-color: #f5d2f0;
-        width: 90vw;
-        height: 30vh;
-        position: absolute;
-        top: calc(10vh+20px);
-        left: 50px;
-        text-align: center;
-    }
-
     .menu{
-        background-color: aquamarine;
+        background-color: #e2d8be;
         height: 80vh;
         width: 80vw;
         margin: auto;
         display: flex;
         justify-content: center;
         align-items: center;
-        
+        box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.569);
+        overflow: hidden;
+    }
+    .div-cont{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
     }
     .logo{
         margin-left: 20px;
@@ -190,9 +195,9 @@
     }
 
     .container{
-        background-color: beige;
-        height: 380px;
-        width: 450px;
+        background-color: #8B4513;
+        height: 200px;
+        width: 300px;
         margin-right: 10px;
         /* display: inline-flex;
         flex-wrap: wrap;
@@ -204,8 +209,11 @@
         flex-wrap: wrap;
         text-align: center; */
     }
+    .container:first-child{
+        margin-left: 10px;
+    }
     .rodape{
-        background-color: #f5d2f0;
+        background-color: #726a53;
         
         height: 10vh;
         width: auto;
