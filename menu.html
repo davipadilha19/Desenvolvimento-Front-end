@@ -3,46 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media-query.css">
+    <link rel="stylesheet" href="\style.css">
+    <link rel="stylesheet" href="\media-query.css">
     <title>Menu</title>
 </head>
-<body id="bodyMenu">
+<body>
     <nav class="navbar">
         <div class="logo">
-            <img id="imglogo" src="logo.png">
+            <img id="imglogo" src="../imagem/logo.png">
         </div>
-        <div class="bar">
-            <a href="#">Catalogos</a>
-            <a href="#">Lançamentos</a>
-            <a href="#">Resenhas</a>
-            <a href="#">Promoções</a>
-            <a href="#">Sobre Nós</a>
+        <div class="divUser" >
+            <div class="user"></div>
+      <p id="nomeUser" onclick="opcoesUser()">Nome</p>
         </div>
+      </div>
+      
     </nav>
     <section class="menu">
-        <p>Lançamentos</p>
-        <div class="div-cont">
-        <div class="container"></div>
-        <div class="container"></div>
-        <div class="container"></div>
-        <div class="container"></div>
-        <div class="container"></div>
-        <div class="container"></div>
+
+
+        <div class="div-maisVendidos">
+            <div class="div-titulo">
+                <h1>Mais Vendidos</h1>
+            </div>
         </div>
-
-        <div class="div-cont">
-        <p>Promoções</p>
-        <div class="container"></div>
-        <div class="container"></div>
-        <div class="container"></div>
-        <div class="container"></div>
-        <div class="container"></div>
-        <div class="container"></div>
-        </div>
-
-    <footer class="rodape">
-
-    </footer>
+        <button onclick="opcoesUser()">teste</button>
+        <a href="../html/cadastroDeProduto.html">cadastro</a>
+        <a href="../html/listagemDeProduto.html">Listagem</a>
+        <script src="interacoes.js"></script>
 </body>
 </html>
